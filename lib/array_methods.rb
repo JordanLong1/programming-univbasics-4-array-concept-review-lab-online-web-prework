@@ -1,11 +1,13 @@
 def find_element_index(array, value_to_find)
-integers = [1, 2, 3, 4, 5]
-value = []
-
-array.length.times { |x|
-  puts x
-}
-end
+  count = 0
+  while count < array.length do
+    if array[count]== value_to_find
+  return count
+  end
+    count += 1
+    end
+    nil
+  end
 
 
 def find_max_value(array)
