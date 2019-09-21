@@ -28,5 +28,4 @@ def find_min_value(array)
     end
   }
   x
-  # Add your solution here
 end
